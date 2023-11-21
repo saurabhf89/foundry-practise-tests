@@ -1,6 +1,9 @@
 [profile.default]
+author = "0x6aD20E2a1579D396D1d6C22fFcDc5E5F06F484C3"
 src = "src"
 out = "out"
 libs = ["lib"]
 
+[invariant]
+fail_on_revert = true
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
